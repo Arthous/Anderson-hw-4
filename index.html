@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <div class="start-screen"> 
+        <h1 class= "title">Welcome!</h1>
+        <button id="start" class= "start-button">Lets Go!</button>
+    </div>
+    <div id="Questions">
+        <h2 id="Question-title"></h2>
+        <div id="choices"></div>
+        <!-- question 1 -->
+        <div id="q1" class = "question-container hidden">
+            <div>"What is HTML used for?"</div>
+            <fieldset>
+                <label for="q1a1">used to create links</label>
+                <input type="radio" id = "q1a1" value = "1">
+                
+                <label for="q1a2">used to style your web page</label>
+                <input type="radio" id = "q1a2" value = "2">
+
+                <label for="q1a3">used to create and stucture web pages</label>
+                <input type="radio" id = "q1a3" value = "3">
+            </fieldset>
+        </div>
+
+        <!-- question 2  -->
+        <div id="q2" class = "question-container hidden">
+            <div>"What is CSS used for"</div>
+            <fieldset>
+                <label for="q1a1">used for backend design</label>
+                <input type="radio" id = "q1a1" value = "1">
+                
+                <label for="q1a2">used to design your webpage</label>
+                <input type="radio" id = "q1a2" value = "2">
+
+                <label for="q1a3">used to combine your locale storage</label>
+                <input type="radio" id = "q1a3" value = "3">
+            </fieldset>
+        </div>
+    </div>
+    <!-- question 3 -->
+    <div id="q3" class = "question-container hidden">
+        <div>"What is Javascript"</div>
+        <fieldset>
+            <label for="q1a1">used to create variables</label>
+            <input type="radio" id = "q1a1" value = "1">
+            
+            <label for="q1a2">used to add color to webpage</label>
+            <input type="radio" id = "q1a2" value = "2">
+
+            <label for="q1a3">used to make web page interactive</label>
+            <input type="radio" id = "q1a3" value = "3">
+        </fieldset>
+    </div>
+    <!-- final score -->
+    <div  id="highscore" class = "final-score hidden">
+        <h3>Your Score.</h3>
+       
+    </div>
+    
+
+
+    
+    <script src="script.js">
+        localStorage.setitem("")
+    </script>
+</body>
+</html>

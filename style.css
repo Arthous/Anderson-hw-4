@@ -1,0 +1,22 @@
+.title {
+   color: blue;
+   margin-left: 1000px;
+   margin-top: 100px;
+   font-size: 100px;
+} 
+
+.start-button {
+    margin-left: 1150px;
+   
+}
+
+.final-score {
+    margin-left: 1150px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
